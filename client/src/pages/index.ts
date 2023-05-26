@@ -1,5 +1,7 @@
 import { Home } from './home';
+import { Service } from './Services'
 
 export {
-    Home
+    Home,
+    Service
 };
