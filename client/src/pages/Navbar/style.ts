@@ -3,16 +3,19 @@ import styled from "styled-components";
 export const Header = styled.nav` 
     background-color: #BF9DE3;
     position: fixed;
+    display: flex;
     width: 100%;
     align-items: center;
+    margin: 0;
+    border: 0;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0;
     flex-wrap: wrap;
     height: 120px; 
     box-shadow:10px 10px 10px rgba(0,0,0,0.15);
         
     img{
-        padding: 50px;
+        padding: 40px;
     }
 
     ul{
@@ -21,25 +24,49 @@ export const Header = styled.nav`
         list-style: none;
         align-items: center;
         margin: 0 10px;
+        margin-right: 50px;
     }
 
     li{
-        margin: 20px;
+        margin: 25px;
     }
+    
+    .module-wrap {
+        width: 100px;
+        height: 40px;
+        background: linear-gradient(to right, #7E3BC7, #D436CB);
+        border: 1px solid #BF9DE3;
+        border-radius: 5px;
+        padding: 2px;
+      }
+      
+      .module {
+        background: #BF9DE3;
+        padding: 1px;
+        height: 31px;
+        display: flex;
+        justify-content: center;
+        padding-top: 8px;
+      }
+
+      .module li {
+        height: 100%;
+        margin: 0;
+      }
 
     a{
         color: black;
         text-decoration: none;
         font-size: 18px;
         font-weight: 500;
-        padding: 8px 15px; 
+        padding: 8px 45px; 
     }
 
-    a:hover, a.active{
-        background-color: #9563CC;
-        border-radius: 5px;
+    // a:hover, a.active{
+    //     background-color: #9563CC;
+    //     border-radius: 5px;
         
-    }
+    // }
 `
 // a:hover, a.active{
 //     /* border-width: 3px solid; */
