@@ -14,16 +14,19 @@ export const Foto = styled.div`
     width: 100%;
     backgroundImage: url(../assets/back.png);
     background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vw;
     height: 1000px;
+    display: felx;
+    justify-content: flex-end;
 `;
 
 export const Texto = styled.h1`
-    // margin: 0;
-    position: sticky;
     padding-right: 50px;
     text-align: right;
     top: 350px;
-    // left: 100px;
     transform: translate(-10%, -20%);
     font-style: bold;
     font-size: 64px;
@@ -31,16 +34,12 @@ export const Texto = styled.h1`
     line-height: 100%;
     vertical-align: top;
     color: red;
-
 `;
 
 export const Texto2 = styled.h1`
-    // margin: 0;
-    position: sticky;
     padding-right: 50px;
     text-align: right;
     top: 430px;
-    // left: 130px;
     transform: translate(-10%, -50%);
     font-style: bold;
     font-size: 64px;
@@ -49,18 +48,28 @@ export const Texto2 = styled.h1`
     vertical-align: top;
     flex-direction: row;
     color: white;
-// `;
+ `;
+
+export const Textcaixa = styled.div`
+    position: static;
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    // padding-top: 60px; 
+`;
 
 export const Paragrafo = styled.p`
     // font-family: Raleway;
-    width: 100%;
-    // font-style: Mixed;
+    width: 90%;
     font-weight: 600;
-    line-height: 48px;
-    font-size: 3vw;
+    line-height: 30px;
+    font-size: 25px;
     text-align: center;
     letter-spacing: 0em;
     position: static;
+    margin-top: 40px;
+    margin-left: 150px;
+    // margin-right: 150px;
 
 `;
 // export const Cordiferente = styled.h2`
