@@ -53,6 +53,7 @@ export const Texto2 = styled.h1`
 
 export const Paragrafo = styled.p`
     // font-family: Raleway;
+    width: 100%;
     font-style: Mixed;
     font-weight: 600;
     line-height: 48px;
