@@ -25,6 +25,7 @@ export const Header = styled.nav`
         align-items: center;
         margin: 0 10px;
         margin-right: 50px;
+        width: 100%;
     }
 
     li{
