@@ -18,30 +18,30 @@ export const Foto = styled.div`
 `;
 
 export const Texto = styled.h1`
-    margin: 0;
-    position: absolute;
-    padding-right: 10cm;
-    text-align: left;
-    top: 47%;
-    left: 80%;
-    transform: translate(-50%, -50%);
+    // margin: 0;
+    position: sticky;
+    padding-right: 50px;
+    text-align: right;
+    top: 350px;
+    // left: 100px;
+    transform: translate(-10%, -20%);
     font-style: bold;
     font-size: 64px;
     line-height: 75px;
     line-height: 100%;
     vertical-align: top;
-    color: white;
+    color: red;
 
 `;
 
 export const Texto2 = styled.h1`
-    margin: 0;
-    position: absolute;
-    padding-right: 10cm;
-    text-align: left;
-    top: 47%;
-    left: 99%;
-    transform: translate(-50%, -50%);
+    // margin: 0;
+    position: sticky;
+    padding-right: 50px;
+    text-align: right;
+    top: 430px;
+    // left: 130px;
+    transform: translate(-10%, -50%);
     font-style: bold;
     font-size: 64px;
     line-height: 75px;
@@ -54,13 +54,13 @@ export const Texto2 = styled.h1`
 export const Paragrafo = styled.p`
     // font-family: Raleway;
     width: 100%;
-    font-style: Mixed;
+    // font-style: Mixed;
     font-weight: 600;
     line-height: 48px;
-    font-size: 32px;
+    font-size: 3vw;
     text-align: center;
-    vertical-align: Top;
     letter-spacing: 0em;
+    position: static;
 
 `;
 // export const Cordiferente = styled.h2`

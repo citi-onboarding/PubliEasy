@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Header = styled.nav` 
-    background-color: #BF9DE3;
-    position: sticky;
+    background-color: #14002A;
+    position: fixed;
     display: flex;
     width: 100%;
     align-items: center;
@@ -25,7 +25,6 @@ export const Header = styled.nav`
         align-items: center;
         margin: 0 10px;
         margin-right: 50px;
-        width: 100%;
     }
 
     li{
@@ -42,7 +41,7 @@ export const Header = styled.nav`
       }
       
       .module {
-        background: #BF9DE3;
+        background: #14002A;
         padding: 1px;
         height: 31px;
         display: flex;
@@ -56,11 +55,12 @@ export const Header = styled.nav`
       }
 
     a{
-        color: black;
+        color: white;
         text-decoration: none;
-        font-size: 18px;
-        font-weight: 500;
-        padding: 8px 45px; 
+        font-size: 20px;
+        font-weight: 700;
+        padding: 8px 45px;
+        line-height: 23.48px 
     }
 
     // a:hover, a.active{

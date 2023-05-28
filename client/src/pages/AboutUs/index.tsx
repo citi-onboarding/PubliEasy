@@ -9,7 +9,8 @@ export const AboutUs: React.FC = () => {
                 <Texto>Headline Headline</Texto>
                 <Texto2>Headline Headline</Texto2>
             </Foto>
-            <Paragrafo>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar metus non porta eleifend. Duis rutrum faucibus condimentum. Fusce eget porttitor augue. Aliquam ut semper arcu, sed ultricies neque.</Paragrafo>
+            <Paragrafo>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar metus non porta eleifend. Duis rutrum faucibus condimentum. Fusce eget porttitor augue. Aliquam ut semper arcu, sed ultricies nequeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa4
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.</Paragrafo>
         </Sobrenos>
     );
 }
