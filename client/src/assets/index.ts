@@ -1,10 +1,12 @@
 import LogoCITi from './logo.png';
-import LogoPublieasy from './logopubli.png';
+import LogoPubliEasy from './LogoPubliEasy.png';
+import back from './back.png';
 
 export {
     LogoCITi,
 };
 
 export {
-    LogoPublieasy,
+    LogoPubliEasy,
+    back,
 };
