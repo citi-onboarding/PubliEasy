@@ -1,5 +1,5 @@
 import React from "react";
-import { ServicesContainer, ServicesH1, ServicesP, ServicesImg, HorizontalLine, ItemImg, Title, Images } from './styles';
+import { ServicesContainer, ServicesH1, ServicesP, ServicesImg, HorizontalLine, ItemImg, Title, Products } from './styles';
 import { Product, Product2 } from '../../assets';
 
 
@@ -10,28 +10,28 @@ export const Service: React.FC = () => {
                 <ServicesH1>Nosso Serviço</ServicesH1>
                 <HorizontalLine></HorizontalLine>    
             </Title>
-            <Images>
+            <Products>
                 <ServicesImg>
                     <ItemImg src={Product} alt="" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                    <ServicesP><strong>Lorem ipsum</strong></ServicesP>
+                    <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </ServicesP>
+                    <ServicesP><strong><a href="https://www.figma.com/proto/VGT2ZmR98xDAkTOatKhENh/Squad-Renato?type=design&node-id=98-3178&scaling=min-zoom&page-id=91%3Aa"style={{ color: 'black', textDecoration: 'none' }}>Lorem ipsum</a></strong></ServicesP>
                 </ServicesImg>
                 <ServicesImg>
                     <ItemImg src={Product2} alt="" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                    <ServicesP><strong>Lorem ipsum</strong></ServicesP>
+                    <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </ServicesP>
+                    <ServicesP><strong><a href="https://www.figma.com/proto/VGT2ZmR98xDAkTOatKhENh/Squad-Renato?type=design&node-id=98-3178&scaling=min-zoom&page-id=91%3Aa"style={{ color: 'black', textDecoration: 'none' }}>Lorem ipsum</a></strong></ServicesP>
                 </ServicesImg>
                 <ServicesImg>
                     <ItemImg src={Product} alt="" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                    <ServicesP><strong>Lorem ipsum</strong></ServicesP>
+                    <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </ServicesP>
+                    <ServicesP><strong><a href="https://www.figma.com/proto/VGT2ZmR98xDAkTOatKhENh/Squad-Renato?type=design&node-id=98-3178&scaling=min-zoom&page-id=91%3Aa"style={{ color: 'black',textDecoration: 'none' }}>Lorem ipsum</a></strong></ServicesP>
                 </ServicesImg>
                 <ServicesImg>
                     <ItemImg src={Product2} alt="" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                    <ServicesP><strong>Lorem ipsum</strong></ServicesP>
+                    <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </ServicesP>
+                    <ServicesP><strong><a href="https://www.figma.com/proto/VGT2ZmR98xDAkTOatKhENh/Squad-Renato?type=design&node-id=98-3178&scaling=min-zoom&page-id=91%3Aa"style={{ color: 'black', textDecoration: 'none' }}>Lorem ipsum</a></strong></ServicesP>
                 </ServicesImg>
-            </Images>
+            </Products>
         </ServicesContainer>
     );
 }
