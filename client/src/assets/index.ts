@@ -1,5 +1,7 @@
-import LogoCITi from './logo.png';
+import Image1 from './img1.png';
+import Image2 from './img2.png'
 
 export {
-    LogoCITi
+    Image1,
+    Image2,
 };

@@ -2,12 +2,15 @@ import React from 'react';
 import { GlobalStyle } from './styles/global';
 
 
-import { Home } from './pages';
+// import { Home } from './pages';
+import { Metrics } from './pages';
+
 
 function App() {
   return (
     <>
-      <Home/>
+      {/* <Home/> */}
+      <Metrics/>
       <GlobalStyle/>
     </>
   );
