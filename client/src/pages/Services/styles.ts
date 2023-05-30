@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 export const ServicesContainer = styled.div`
     width: 90%;
-    // height: auto;
     font-family: raleway;
 
     display: flex;
@@ -51,8 +50,11 @@ export const ServicesImg = styled.div`
 `;
 
 export const ItemImg = styled.img`
-    width: 70%;
-    height: auto;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius:5%;
 `;
 
 export const ServicesP = styled.p`
