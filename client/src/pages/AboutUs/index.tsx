@@ -7,9 +7,9 @@ export const AboutUs: React.FC = () => {
         <Sobrenos>
             <Foto style={{ backgroundImage: `url(${back})` }}>
                 <Textcaixa>
-                <Texto>Headline Headline</Texto>
-                <Texto2>Headline <Cordiferente2>Headline</Cordiferente2></Texto2>
-                <Imagem src="botaobranco"/>
+                    <Texto>Headline Headline</Texto>
+                    <Texto2>Headline <Cordiferente2>Headline</Cordiferente2></Texto2>
+                    <Imagem src="botaobranco"/>
                 </Textcaixa>
             </Foto>
             <Paragrafo>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar metus non porta eleifend. Duis rutrum faucibus condimentum. Fusce eget porttitor augue. 

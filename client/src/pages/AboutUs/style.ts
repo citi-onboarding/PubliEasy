@@ -52,6 +52,7 @@ export const Texto2 = styled.h1`
 export const Textcaixa = styled.div`
     // position: static;
     width: 100%;
+    height: 20%;
     padding: 20px;
     margin: 20px;
     display: flex;
