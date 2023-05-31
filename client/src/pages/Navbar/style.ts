@@ -13,6 +13,7 @@ export const Header = styled.nav`
     flex-wrap: wrap;
     height: 120px; 
     box-shadow:10px 10px 10px rgba(0,0,0,0.15);
+    z-index: 50;
         
     img{
         padding: 40px;
@@ -34,9 +35,9 @@ export const Header = styled.nav`
     
     .module-wrap {
         width: 140px;
-        height: 40px;
+        height: 42px;
         background: linear-gradient(to right, #7E3BC7, #D436CB);
-        border: 2px solid #BF9DE3;
+        border: 2px solid;
         border-radius: 5px;
         padding: 2px;
         margin-left: 35px;

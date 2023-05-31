@@ -14,48 +14,43 @@ export const Foto = styled.div`
     width: 100%;
     backgroundImage: url(../assets/back.png);
     background-size: cover;
-    background-position: center;
     align-items: center;
     padding: 20px;
-    height: 100vw;
     height: 1000px;
     display: flex;
-    justify-content: flex-end;
 `;
 
 export const Texto = styled.h1`
-    padding-right: 2.8%;
+    padding-right: 5%;
     text-align: right;
-    transform: translate(-10%, -100%);
     font-style: normal;
     font-size: 64px;
     font-weight: 700;
     line-height: 100%;
-    vertical-align: top;
-    flex-direction: row;
+    padding-top: 350px;
     color: white;
 `;
 
 export const Texto2 = styled.h1`
-    padding-right: 2.8%;
+    padding-right: 5%;
     text-align: right;
-    transform: translate(-10%, -80%);
     font-style: normal;
     font-size: 64px;
     font-weight: 700;
     line-height: 100%;
-    vertical-align: top;
-    flex-direction: row;
+    padding-top: 10px;
     color: white;
  `;
 
 export const Textcaixa = styled.div`
     // position: static;
     width: 100%;
-    height: 20%;
-    padding: 20px;
-    margin: 20px;
+    // height: 40%;
+    height: 100%;
+    // padding: 10px;
+    // margin: 20px;
     display: flex;
+    flex-direction: column;
 `;
 
 export const Paragrafo = styled.p`
@@ -82,6 +77,10 @@ export const Cordiferente2 = styled.span`
 `;
 
 export const Imagem = styled.img`
-    align-self: center;
-    top: 350px;
-`;
+    align-self: end;
+    justify-content: flex-end;
+    padding-top: 21%;
+    align-items: center;
+    padding-right: 47%;
+    `;
+
