@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    // font-family: sans-serif;
+    font-family: raleway;
   }
 
   button {

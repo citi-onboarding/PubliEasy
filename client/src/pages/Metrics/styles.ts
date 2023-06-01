@@ -11,7 +11,7 @@ export const MainContainer = styled.div`
   `;
   
 export const Image = styled.img`
-  width:40%;
+  width:49%;
   margin: 20px;
 `;
 
@@ -24,7 +24,7 @@ justify-content: space-around;
 export const UpContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-betwenn;
+  justify-content: space-between;
 `;
   
 export const DownContainer = styled.div`
@@ -35,9 +35,9 @@ export const DownContainer = styled.div`
 
 export const MetricData = styled.div`
   width: 10%
-  font-family: Raleway;
+  font-family: raleway;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 `;
 
@@ -49,7 +49,8 @@ export const Circle = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 34px
+  font-size: 64px;
+
 `;
 
 export const Paragraph = styled.p`
@@ -57,8 +58,8 @@ export const Paragraph = styled.p`
   line-height: 32px;
   text-align: center;
   font-color: black;
-  width:70%
-  font-size: 25px;
+  width:60%;
+  font-size: 24px;
 `;
 
    

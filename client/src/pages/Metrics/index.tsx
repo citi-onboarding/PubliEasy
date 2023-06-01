@@ -9,15 +9,15 @@ export const Metrics: React.FC = () => {
                 <Image src={Image1} alt=""/>
                 <Description>
                     <MetricData>
-                        <Circle><p>Número</p></Circle>
+                        <Circle><p>47</p></Circle>
                         <Paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Paragraph>
                     </MetricData>
                     <MetricData>
-                        <Circle><p>Número</p></Circle>
+                        <Circle><p>28</p></Circle>
                         <Paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Paragraph>
                     </MetricData>
                     <MetricData>
-                        <Circle><p>Número</p></Circle>
+                        <Circle><p>100</p></Circle>
                         <Paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Paragraph>
                     </MetricData>
                 </Description>
@@ -26,15 +26,15 @@ export const Metrics: React.FC = () => {
                 <Image src={Image2} alt=""/>
                 <Description>
                     <MetricData>
-                        <Circle><p>Número</p></Circle>
+                        <Circle><p>89</p></Circle>
                         <Paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Paragraph>
                     </MetricData>
                     <MetricData>
-                        <Circle><p>Número</p></Circle>
+                        <Circle><p>98%</p></Circle>
                         <Paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Paragraph>
                     </MetricData>
                     <MetricData>
-                        <Circle><p>Número</p></Circle>
+                        <Circle><p>400</p></Circle>
                         <Paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Paragraph>
                     </MetricData>
                 </Description>
