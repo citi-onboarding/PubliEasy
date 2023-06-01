@@ -14,22 +14,22 @@ export const Service: React.FC = () => {
                 <ServicesImg>
                     <ItemImg src={Product} alt="" />
                     <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </ServicesP>
-                    <ServicesP><strong><a href="https://www.figma.com/proto/VGT2ZmR98xDAkTOatKhENh/Squad-Renato?type=design&node-id=98-3178&scaling=min-zoom&page-id=91%3Aa"style={{ color: 'black', textDecoration: 'none' }}>Lorem ipsum</a></strong></ServicesP>
+                    <ServicesP><strong><a href="#"style={{ color: 'black', textDecoration: 'none' }}>Lorem ipsum</a></strong></ServicesP>
                 </ServicesImg>
                 <ServicesImg>
                     <ItemImg src={Product2} alt="" />
                     <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </ServicesP>
-                    <ServicesP><strong><a href="https://www.figma.com/proto/VGT2ZmR98xDAkTOatKhENh/Squad-Renato?type=design&node-id=98-3178&scaling=min-zoom&page-id=91%3Aa"style={{ color: 'black', textDecoration: 'none' }}>Lorem ipsum</a></strong></ServicesP>
+                    <ServicesP><strong><a href="#"style={{ color: 'black', textDecoration: 'none' }}>Lorem ipsum</a></strong></ServicesP>
                 </ServicesImg>
                 <ServicesImg>
                     <ItemImg src={Product} alt="" />
                     <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </ServicesP>
-                    <ServicesP><strong><a href="https://www.figma.com/proto/VGT2ZmR98xDAkTOatKhENh/Squad-Renato?type=design&node-id=98-3178&scaling=min-zoom&page-id=91%3Aa"style={{ color: 'black',textDecoration: 'none' }}>Lorem ipsum</a></strong></ServicesP>
+                    <ServicesP><strong><a href="#"style={{ color: 'black',textDecoration: 'none' }}>Lorem ipsum</a></strong></ServicesP>
                 </ServicesImg>
                 <ServicesImg>
                     <ItemImg src={Product2} alt="" />
                     <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </ServicesP>
-                    <ServicesP><strong><a href="https://www.figma.com/proto/VGT2ZmR98xDAkTOatKhENh/Squad-Renato?type=design&node-id=98-3178&scaling=min-zoom&page-id=91%3Aa"style={{ color: 'black', textDecoration: 'none' }}>Lorem ipsum</a></strong></ServicesP>
+                    <ServicesP><strong><a href="#"style={{ color: 'black', textDecoration: 'none' }}>Lorem ipsum</a></strong></ServicesP>
                 </ServicesImg>
             </Products>
         </ServicesContainer>

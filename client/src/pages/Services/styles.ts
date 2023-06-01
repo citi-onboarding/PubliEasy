@@ -54,7 +54,7 @@ export const ItemImg = styled.img`
     height: 200px;
     object-fit: cover;
     object-position: 50% 50%;
-    border-radius:5%;
+    border-radius:8%;
 `;
 
 export const ServicesP = styled.p`
