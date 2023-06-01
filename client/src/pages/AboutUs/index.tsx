@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import { Sobrenos, Foto, Texto, Texto2, Paragrafo,  Textcaixa, Cordiferente, Imagem, Cordiferente2} from "./style";
 import { back, botaobranco } from "../../assets";
 

@@ -6,6 +6,7 @@ import { GlobalStyle } from './styles/global';
 // import { Home } from './pages';
 import { Navbar } from './pages';
 import { AboutUs } from './pages';
+import { Footer } from './pages';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <GlobalStyle/>
       <Navbar/>
       <AboutUs/>
+      <Footer/>
       </>
   );
 }
