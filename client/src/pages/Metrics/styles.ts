@@ -5,9 +5,20 @@ export const MainContainer = styled.div`
   margin: 80px;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  `;
+  
+export const Image = styled.img`
+  width:40%;
+  margin: 20px;
+`;
+
+export const Description = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: space-around;
 `;
 
 export const UpContainer = styled.div`
@@ -22,21 +33,12 @@ export const DownContainer = styled.div`
   justify-content: space-between;
 `;
 
-export const Image = styled.img`
-  width:40%;
-`;
-
-export const MetricContainer = styled.img`
-   width: 10%
-`;
-
 export const MetricData = styled.div`
   width: 10%
   font-family: Raleway;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-
 `;
 
 export const Circle = styled.div`
@@ -51,11 +53,12 @@ export const Circle = styled.div`
 `;
 
 export const Paragraph = styled.p`
-  margin-top: 24px;
+  margin-left: 24px;
   line-height: 32px;
   text-align: center;
   font-color: black;
   width:70%
+  font-size: 25px;
 `;
 
    

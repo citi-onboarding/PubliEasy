@@ -1,5 +1,5 @@
 import React from "react";
-import { MainContainer, UpContainer, DownContainer, Image, Paragraph, MetricData, Circle } from './styles';
+import { MainContainer, UpContainer, DownContainer, Image, Paragraph, MetricData, Circle, Description } from './styles';
 import { Image1, Image2 } from '../../assets';
 
 export const Metrics: React.FC = () => {
@@ -7,7 +7,7 @@ export const Metrics: React.FC = () => {
         <MainContainer> 
             <UpContainer>
                 <Image src={Image1} alt=""/>
-                <div>
+                <Description>
                     <MetricData>
                         <Circle><p>Número</p></Circle>
                         <Paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Paragraph>
@@ -20,11 +20,11 @@ export const Metrics: React.FC = () => {
                         <Circle><p>Número</p></Circle>
                         <Paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Paragraph>
                     </MetricData>
-                </div>
+                </Description>
             </UpContainer>
             <DownContainer>
                 <Image src={Image2} alt=""/>
-                <div>
+                <Description>
                     <MetricData>
                         <Circle><p>Número</p></Circle>
                         <Paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Paragraph>
@@ -37,7 +37,7 @@ export const Metrics: React.FC = () => {
                         <Circle><p>Número</p></Circle>
                         <Paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Paragraph>
                     </MetricData>
-                </div>
+                </Description>
             </DownContainer>
 
         </MainContainer>
