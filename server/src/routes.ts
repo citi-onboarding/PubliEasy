@@ -1,12 +1,13 @@
 import express from 'express';
-import ServicesController from '@controllers/ServicesController';
+import UserController from '@controllers/UserController'
 
 const routes = express.Router();
-const servicesController = new ServicesController();
+const userController = new UserController();
 
-routes.post('/service',servicesController.create);
-routes.get('/service',servicesController.get);
-routes.delete('/service/:id',servicesController.delete);
-routes.put('/service/:id',servicesController.update);
+routes.post('/user', userController.create);
+routes.get('/user', userController.get);
+routes.delete('/user/:id', userController.delete);
+routes.put('/user/:id', userController.update);
+
 
 export default routes;
