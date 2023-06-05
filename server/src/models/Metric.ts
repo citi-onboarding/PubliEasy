@@ -7,9 +7,88 @@ export class Metric {
     id: number
 
     @Column()
-    metric: number
+    metric: string
 
     @Column()
     metricDescription: string
 
 }
+
+// @Entity()
+// export class Metric {
+
+//     @PrimaryGeneratedColumn()
+//     id: number
+
+//     @Column()
+//     metric: string
+
+//     @Column()
+//     metricDescription: string
+
+// }
+// @Entity()
+// export class Metric {
+
+//     @PrimaryGeneratedColumn()
+//     id: number
+
+//     @Column()
+//     metric: string
+
+//     @Column()
+//     metricDescription: string
+
+// }
+// @Entity()
+// export class Metric {
+
+//     @PrimaryGeneratedColumn()
+//     id: number
+
+//     @Column()
+//     metric: string
+
+//     @Column()
+//     metricDescription: string
+
+// }
+// @Entity()
+// export class Metric {
+
+//     @PrimaryGeneratedColumn()
+//     id: number
+
+//     @Column()
+//     metric: string
+
+//     @Column()
+//     metricDescription: string
+
+// }
+// @Entity()
+// export class Metric {
+
+//     @PrimaryGeneratedColumn()
+//     id: number
+
+//     @Column()
+//     metric: string
+
+//     @Column()
+//     metricDescription: string
+
+// }
+// @Entity()
+// export class Metric {
+
+//     @PrimaryGeneratedColumn()
+//     id: number
+
+//     @Column()
+//     metric: string
+
+//     @Column()
+//     metricDescription: string
+
+// }
