@@ -25,11 +25,11 @@ export default class MetricController implements Crud {
 
     async delete(req: Request, res: Response){
         const { id } = req.params;
-        const {value: serviceFound, message } = await Citi.findByID(Metric, id); 
+        const {value: metricFound, message } = await Citi.findByID(Metric, id); 
            
-        if(!serviceFound) return res.status(400).send({ message });
+        if(!metricFound) return res.status(400).send({ message });
 
-        const {httpStatus, messageFromDelete } = await Citi.deleteValue(Metric, serviceFound);
+        const {httpStatus, messageFromDelete } = await Citi.deleteValue(Metric, metricFound);
         return res.status(httpStatus).send({ messageFromDelete });
     }
 
