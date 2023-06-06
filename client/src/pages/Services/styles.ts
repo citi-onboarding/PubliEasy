@@ -2,17 +2,18 @@ import styled from 'styled-components';
 
 
 export const ServicesContainer = styled.div`
-    width: 90%;
+    width: 80%;
     font-family: raleway;
+    margin: 0 auto;
 
     display: flex;
     flex-direction: column;    
 `;
 
 export const Title = styled.div`
-    height: auto;
+    width: 75%;
+    height: 150px;
     margin-top: 70px;
-    margin-left: 70px;
 `;
 
 export const ServicesH1 = styled.h1`  
@@ -31,8 +32,9 @@ export const HorizontalLine = styled.div`
 `;
 
 export const Products = styled.div`
-    margin: 70px;
-    width: 100%;
+    margin: 100px;
+    width: 90%;
+    height: 150px;
 
     display: flex;
     align-content: center;
@@ -41,7 +43,8 @@ export const Products = styled.div`
 `;
 
 export const ServicesImg = styled.div`
-    width: 100%;
+    width: 75%;
+    height:150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,8 +53,8 @@ export const ServicesImg = styled.div`
 `;
 
 export const ItemImg = styled.img`
-    width: 300px;
-    height: 200px;
+    width: 80%;
+    height: 150px;
     object-fit: cover;
     object-position: 50% 50%;
     border-radius:8%;
