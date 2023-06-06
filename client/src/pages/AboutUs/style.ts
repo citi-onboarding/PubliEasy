@@ -10,7 +10,7 @@ export const Sobrenos = styled.div`
     border: 0;
 `;
 
-export const Foto = styled.div`
+export const Background = styled.div`
     width: 100%;
     backgroundImage: url(../assets/back.png);
     background-size: cover;
@@ -20,7 +20,7 @@ export const Foto = styled.div`
     display: flex;
 `;
 
-export const Texto = styled.h1`
+export const TextUp = styled.h1`
     padding-right: 5%;
     text-align: right;
     font-style: normal;
@@ -31,7 +31,7 @@ export const Texto = styled.h1`
     color: white;
 `;
 
-export const Texto2 = styled.h1`
+export const TextBottom = styled.h1`
     padding-right: 5%;
     text-align: right;
     font-style: normal;
@@ -42,7 +42,7 @@ export const Texto2 = styled.h1`
     color: white;
  `;
 
-export const Textcaixa = styled.div`
+export const TextBackground = styled.div`
     // position: static;
     width: 100%;
     // height: 40%;
@@ -53,7 +53,7 @@ export const Textcaixa = styled.div`
     flex-direction: column;
 `;
 
-export const Paragrafo = styled.p`
+export const TextAboutUs = styled.p`
     width: 100%;
     font-weight: 200;
     line-height: 150.5%;
@@ -68,15 +68,15 @@ export const Paragrafo = styled.p`
     justify-content: space-between;
 `;
 
-export const Cordiferente = styled.span`
+export const DifferentColor = styled.span`
     font-weight: 600;
 `;
 
-export const Cordiferente2 = styled.span`
+export const DifferentColor2 = styled.span`
     color: #7E3BC7;
 `;
 
-export const Imagem = styled.img`
+export const ImageButtom = styled.img`
     align-self: end;
     justify-content: flex-end;
     padding-top: 21%;

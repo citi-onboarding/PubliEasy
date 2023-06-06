@@ -1,12 +1,12 @@
 import React from "react"
-import { Header } from "./style";
+import { Header, Logo, List } from "./style";
 import { LogoPubliEasy } from '../../assets';
 
 export const Navbar: React.FC = () => {
     return (
             <Header>
-                <img src={LogoPubliEasy} />
-                <ul>
+                <Logo src={LogoPubliEasy} />
+                <List>
                     <li> 
                         <a href="">Home</a> 
                     </li>
@@ -21,7 +21,7 @@ export const Navbar: React.FC = () => {
                             <a href="">Contato</a>
                         </li>
                     </div></div>
-                </ul>
+                </List>
             </Header>
     );
 }
