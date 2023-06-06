@@ -1,7 +1,5 @@
-// import { Home } from './home';
-import { Footer } from './Footer';
+import { Home } from './home';
 
 export {
-    // Home,
-    Footer,
-}
+    Home
+};
