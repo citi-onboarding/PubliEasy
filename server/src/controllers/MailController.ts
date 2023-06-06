@@ -7,14 +7,14 @@ dotenv.config();
 const SendMail = async (request: Request, response: Response) => {
     try {
         // ver se precisa mudar depois !!!!!!!!!!!!!!!!!!!!!!
-        const {name, email, message} = request.body;
+        const {name, number, email, message} = request.body;
 
         await MailServer({
             destinationUser: process.env.EMAIL_WILL_RECEIVE,
             subjectText: '', 
             // VER O QUE TEM QUE ESCREVER AQUI
             htmlOption: `<p>
-                Um usuário entrou em contato!! Esse usário tem o nome ${name} e apresenta o email ${email}. Esse usuário deixou a mensagem: ${message}
+                Um usuário entrou em contato!! Esse usário tem o nome ${name}, com telefone ${number} e apresenta o email ${email}. Esse usuário deixou a mensagem: ${message}.
             </p>`
         })
 
