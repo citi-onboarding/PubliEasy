@@ -3,7 +3,7 @@ import facebook from './facebook.png';
 import instagram from './instagram.png';
 import linkedin from './linkedin.png';
 import ondasfooter from './ondasfooter.png';
-import creditos from './creditos.png';
+import creditos from './Creditos.png';
 import LogoCITi from './logo.png';
 
 export {
@@ -14,4 +14,4 @@ export {
     ondasfooter,
     creditos,
     LogoCITi
-};
+}

@@ -6,6 +6,7 @@ import { theme } from './styles/theme';
 // import { Home } from './pages';
 import { Footer } from './pages';
 
+
 function App() {
   return (
     <>
