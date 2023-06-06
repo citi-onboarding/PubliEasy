@@ -3,5 +3,5 @@ import { Footer } from './Footer';
 
 export {
     // Home,
-    Footer,
-}
+    Footer
+};
