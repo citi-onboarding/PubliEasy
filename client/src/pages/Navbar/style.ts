@@ -29,7 +29,8 @@ export const Header = styled.nav`
         margin: 0 10px;
         margin-right: 10%;
         justify-content: space-between;
-        width: 40%;
+        width: 50%;
+        max-width: 800px;
     }
 
     // li{
