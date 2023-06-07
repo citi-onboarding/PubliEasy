@@ -1,17 +1,19 @@
 import React from 'react';
 import { GlobalStyle } from './styles/global';
+import { theme } from './styles/theme';
 
 
 // import { Home } from './pages';
-import { Metrics } from './pages';
+import { Footer, Metrics } from './pages';
 
 
 function App() {
   return (
     <>
       {/* <Home/> */}
-      <Metrics/>
       <GlobalStyle/>
+      <Metrics/>
+      <Footer/>
     </>
   );
 }
