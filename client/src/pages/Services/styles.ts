@@ -11,15 +11,17 @@ export const ServicesContainer = styled.div`
 `;
 
 export const Title = styled.div`
-    width: 75%;
-    height: 150px;
+    width: 80%;
+    height: 10px;
     margin-top: 70px;
-`;
-
-export const ServicesH1 = styled.h1`  
+    margin-left: 50px;
+    `;
+    
+    export const ServicesH1 = styled.h1`  
     font-size: 46px;
-    font-weight: 300;
-    line-height: 54px;
+    font-weight: 500;
+    line-height: 70px;
+
     color: ${(props) => props.theme.colors.primary};
     text-align: left;
     letter-spacing: 0em;
@@ -32,28 +34,28 @@ export const HorizontalLine = styled.div`
 `;
 
 export const Products = styled.div`
-    margin: 100px;
     width: 90%;
+    margin-top: 100px;
+    margin-left: 20px;
     height: 150px;
 
     display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items:center;
 `;
 
 export const ServicesImg = styled.div`
-    width: 75%;
-    height:150px;
+    width: 90%;
+    height:50px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    font-size: 20px;
+    justify-content: space-between;
 `;
 
 export const ItemImg = styled.img`
-    width: 80%;
+    width: ;px
     height: 150px;
     object-fit: cover;
     object-position: 50% 50%;
