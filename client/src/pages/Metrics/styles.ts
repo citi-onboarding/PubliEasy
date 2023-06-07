@@ -49,8 +49,11 @@ export const Circle = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 64px;
-
+  p {
+    padding-left: 70%;
+    font-weight: bold;
+    font-size: 64px;
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -62,4 +65,4 @@ export const Paragraph = styled.p`
   font-size: 24px;
 `;
 
-   
+  
