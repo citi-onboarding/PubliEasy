@@ -4,7 +4,7 @@ import { theme } from './styles/theme';
 
 
 // import { Home } from './pages';
-import { Footer } from './pages';
+import { Footer, Metrics } from './pages';
 
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
     <>
       {/* <Home/> */}
       <GlobalStyle/>
+      <Metrics/>
       <Footer/>
     </>
   );

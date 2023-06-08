@@ -5,6 +5,8 @@ import linkedin from './linkedin.png';
 import ondasfooter from './ondasfooter.png';
 import creditos from './Creditos.png';
 import LogoCITi from './logo.png';
+import Image1 from './img1.png';
+import Image2 from './img2.png';
 
 export {
     LogoPubliEasy,
@@ -13,5 +15,7 @@ export {
     linkedin,
     ondasfooter,
     creditos,
-    LogoCITi
+    LogoCITi,
+    Image1,
+    Image2
 }
