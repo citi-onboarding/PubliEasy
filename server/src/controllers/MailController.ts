@@ -11,7 +11,7 @@ const SendMail = async (request: Request, response: Response) => {
 
         await MailServer({
             destinationUser: process.env.EMAIL_WILL_RECEIVE,
-            subjectText: 'nodemailer funcionando', 
+            subjectText: 'Alguém entrou em contato com a PubliEasy!', 
             htmlOption: `<p>
                 Um usuário entrou em contato!! Esse usário tem o nome ${name}, com telefone ${number} e apresenta o email ${email}. Esse usuário deixou a mensagem: ${message}.
             </p>`
