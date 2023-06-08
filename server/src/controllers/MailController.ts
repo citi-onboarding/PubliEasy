@@ -11,8 +11,7 @@ const SendMail = async (request: Request, response: Response) => {
 
         await MailServer({
             destinationUser: process.env.EMAIL_WILL_RECEIVE,
-            subjectText: '', 
-            // VER O QUE TEM QUE ESCREVER AQUI
+            subjectText: 'nodemailer funcionando', 
             htmlOption: `<p>
                 Um usuário entrou em contato!! Esse usário tem o nome ${name}, com telefone ${number} e apresenta o email ${email}. Esse usuário deixou a mensagem: ${message}.
             </p>`
@@ -24,7 +23,7 @@ const SendMail = async (request: Request, response: Response) => {
 
     } catch(error){
         return response.status(500).send({
-            answer: 'Desculpe. Houve algum tipo de problema'
+            answer: 'Desculpe. Houve algum tipo de problema.'
         })
     }
 }
