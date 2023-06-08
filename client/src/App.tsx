@@ -1,16 +1,22 @@
 import React from 'react';
-import { ThemeProvider } from 'styled-components';
-import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
+import { theme } from './styles/theme';
 
-import { Service } from './pages'
+
 // import { Home } from './pages';
+import { Service } from './pages'
+import { Footer, Metrics } from './pages';
+import { ThemeProvider } from 'styled-components';
+
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <Service/>
+    <ThemeProvider theme ={theme}>
+      {/* <Home/> */}
       <GlobalStyle/>
+      <Service/>
+      <Metrics/>
+      <Footer/>
     </ThemeProvider>
   );
 }

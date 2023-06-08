@@ -5,16 +5,17 @@ export const ServicesContainer = styled.div`
     width: 80%;
     font-family: raleway;
     margin: 0 auto;
+    margin-bottom: 300px;
 
     display: flex;
-    flex-direction: column;    
+    flex-direction: column; 
 `;
 
 export const Title = styled.div`
     width: 80%;
     height: 10px;
     margin-top: 70px;
-    margin-left: 50px;
+    margin-left: 60px;
     `;
     
     export const ServicesH1 = styled.h1`  
@@ -36,7 +37,7 @@ export const HorizontalLine = styled.div`
 export const Products = styled.div`
     width: 90%;
     margin-top: 100px;
-    margin-left: 20px;
+    margin-left: 50px;
     height: 150px;
 
     display: flex;
