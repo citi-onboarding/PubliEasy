@@ -4,9 +4,9 @@ import { Citi, Crud } from '../global'
 
 export default class MetricController implements Crud {
     async create(req: Request, res: Response) {
-        const {metric, metricDescription} = req.body;
+        const {metric, metricDescription, metric2, metricDescription2, metric3, metricDescription3} = req.body;
 
-        const isAnyUndefined = Citi.areValuesUndefined(metric, metricDescription);
+        const isAnyUndefined = Citi.areValuesUndefined(metric, metricDescription, metric2, metricDescription2, metric3, metricDescription3);
         
         if(isAnyUndefined) {
             return res.status(400).send();
@@ -35,12 +35,12 @@ export default class MetricController implements Crud {
 
     async update(req: Request, res: Response){
         const { id } = Request.params;
-        const { metric, metricDescription } =req.body;
+        const { metric, metricDescription, metric2, metricDescription2, metric3, metricDescription3 } =req.body;
 
-        const isAnyUndefined = Citi.areValuesUndefined(metric, metricDescription, id);
+        const isAnyUndefined = Citi.areValuesUndefined(metric, metricDescription, metric2, metricDescription2, metric3, metricDescription3,id);
         if(isAnyUndefined) return res.status(400).send();
 
-        const userWithUpdatedValues = { metric, metricDescription };
+        const userWithUpdatedValues = { metric, metricDescription, metric2, metricDescription2, metric3, metricDescription3 };
 
         const { httpStatus, messageFromUpdate } = await Citi.updateValue(Metric, id, userWithUpdatedValues);
         return res.status(httpStatus).send({ messageFromUpdate });
