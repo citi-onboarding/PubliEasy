@@ -13,38 +13,6 @@ export const Header = styled.nav`
     height: 120px; 
     box-shadow:10px 10px 10px rgba(0,0,0,0.15);
     z-index: 50;
-
-    .module-wrap {
-      width: 140px;
-      height: 42px;
-      background: linear-gradient(to right, #7E3BC7, #D436CB);
-      border: 2px solid;
-      border-radius: 5px;
-      padding: 2px;
-    }
-    
-    .module {
-      background: #14002A;
-      padding: 1px;
-      height: 34px;
-      display: flex;
-      justify-content: center;
-      padding-top: 6px;
-    }
-
-    .module li {
-      height: 100%;
-      margin: 0;
-    }
-
-    a{
-      color: white;
-      text-decoration: none;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 23.48px 
-  }
     `;
 
 export const Logo = styled.img`
@@ -60,7 +28,41 @@ export const List = styled.ul`
         margin: 0 10px;
         margin-right: 10%;
         justify-content: space-between;
-        width: 40%;
-        `;
+        width: 50%;
+        max-width: 800px;
+    }
+    
+    .module-wrap {
+        width: 140px;
+        height: 42px;
+        background: linear-gradient(to right, #7E3BC7, #D436CB);
+        border: 2px solid;
+        border-radius: 5px;
+        padding: 2px;
+      }
+      
+      .module {
+        background: #14002A;
+        padding: 1px;
+        height: 34px;
+        display: flex;
+        justify-content: center;
+        padding-top: 6px;
+      }
+
+      .module li {
+        height: 100%;
+        margin: 0;
+      }
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 23.48px 
+    }
+`;
 
    
