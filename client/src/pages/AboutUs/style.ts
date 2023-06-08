@@ -79,7 +79,7 @@ export const DifferentColor2 = styled.span`
 export const ImageButtom = styled.img`
     align-self: end;
     justify-content: flex-end;
-    padding-top: 21%;
+    padding-top: 400px;
     align-items: center;
     padding-right: 47%;
     `;
