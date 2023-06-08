@@ -1,9 +1,11 @@
-// import { Home } from './home';
+import { Home } from './home';
+import { Service } from './Services';
 import { Footer } from './Footer';
 import { Metrics } from './Metrics';
 
 export {
-    // Home,
-    Footer,
-    Metrics
-}
+    Home,
+    Service,
+    Footer, 
+    Metrics,
+};

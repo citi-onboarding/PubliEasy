@@ -7,6 +7,8 @@ import creditos from './Creditos.png';
 import LogoCITi from './logo.png';
 import Image1 from './img1.png';
 import Image2 from './img2.png';
+import Product from './product.png';
+import Product2 from './product2.png';
 
 export {
     LogoPubliEasy,
@@ -17,5 +19,7 @@ export {
     creditos,
     LogoCITi,
     Image1,
-    Image2
+    Image2,
+    Product,
+    Product2,
 }
