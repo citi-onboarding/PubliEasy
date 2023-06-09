@@ -5,6 +5,8 @@ import linkedin from './linkedin.png';
 import ondasfooter from './ondasfooter.png';
 import creditos from './Creditos.png';
 import LogoCITi from './logo.png';
+import back from './back.png';
+import botaobranco from './botaobranco.svg';
 import Image1 from './img1.png';
 import Image2 from './img2.png';
 import Product from './product.png';
@@ -12,6 +14,8 @@ import Product2 from './product2.png';
 
 export {
     LogoPubliEasy,
+    back,
+    botaobranco,
     facebook,
     instagram, 
     linkedin,
@@ -22,4 +26,5 @@ export {
     Image2,
     Product,
     Product2,
-}
+};
+
