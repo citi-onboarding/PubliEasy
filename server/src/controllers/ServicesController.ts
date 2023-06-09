@@ -12,7 +12,7 @@ export default class ServicesController implements Crud {
             return res.status(400).send();
         }
 
-        const newService = { image, name, description};
+        const newService = { image, name, description };
         const {httpStatus, message} = await Citi.insertIntoDatabase (Services, newService);
 
         return res.status(httpStatus).send({ message });
@@ -34,7 +34,7 @@ export default class ServicesController implements Crud {
     }
 
     async update(req: Request, res: Response){
-        const { id } = Request.params;
+        const { id } = req.params;
         const { image, name, description } =req.body;
 
         const isAnyUndefined = Citi.areValuesUndefined(image, name, description, id);
