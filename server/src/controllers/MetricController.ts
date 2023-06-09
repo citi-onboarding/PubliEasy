@@ -12,7 +12,7 @@ export default class MetricController implements Crud {
             return res.status(400).send();
         }
 
-        const newMetric = {metric, metricDescription};
+        const newMetric = {metric, metricDescription, metric2, metricDescription2, metric3, metricDescription3};
         const {httpStatus, message} = await Citi.insertIntoDatabase (Metric, newMetric);
 
         return res.status(httpStatus).send({ message });
@@ -34,7 +34,7 @@ export default class MetricController implements Crud {
     }
 
     async update(req: Request, res: Response){
-        const { id } = Request.params;
+        const { id } = req.params;
         const { metric, metricDescription, metric2, metricDescription2, metric3, metricDescription3 } =req.body;
 
         const isAnyUndefined = Citi.areValuesUndefined(metric, metricDescription, metric2, metricDescription2, metric3, metricDescription3,id);
