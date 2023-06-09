@@ -1,20 +1,20 @@
 import React from 'react';
-import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
+import { Navbar,  AboutUs, Service, Footer, Metrics } from './pages';
+import { ThemeProvider } from 'styled-components';
+import { theme } from './styles/theme';
 
-
-// import { Home } from './pages';
-import { Navbar } from './pages';
-import { AboutUs } from './pages';
 
 function App() {
   return (
-    <>
-      <GlobalStyle/>
+    <ThemeProvider theme ={theme}>
       <Navbar/>
       <AboutUs/>
-      </>
+      <Service/>
+      <Metrics/>
+      <Footer/>
+      <GlobalStyle/>
+    </ThemeProvider>
   );
 }
 
-export default App;

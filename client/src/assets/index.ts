@@ -1,14 +1,30 @@
-import LogoCITi from './logo.png';
 import LogoPubliEasy from './LogoPubliEasy.png';
+import facebook from './facebook.png';
+import instagram from './instagram.png';
+import linkedin from './linkedin.png';
+import ondasfooter from './ondasfooter.png';
+import creditos from './Creditos.png';
+import LogoCITi from './logo.png';
 import back from './back.png';
 import botaobranco from './botaobranco.svg';
-
-export {
-    LogoCITi,
-};
+import Image1 from './img1.png';
+import Image2 from './img2.png';
+import Product from './product.png';
+import Product2 from './product2.png';
 
 export {
     LogoPubliEasy,
     back,
-    botaobranco
+    botaobranco,
+    facebook,
+    instagram, 
+    linkedin,
+    ondasfooter,
+    creditos,
+    LogoCITi,
+    Image1,
+    Image2,
+    Product,
+    Product2,
 };
+

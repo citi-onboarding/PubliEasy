@@ -1,9 +1,16 @@
 import { Home } from './home';
 import { Navbar } from './Navbar';
 import { AboutUs } from './AboutUs';
+import { Service } from './Services';
+import { Footer } from './Footer';
+import { Metrics } from './Metrics';
 
 export {
     Home,
     Navbar,
-    AboutUs
+    AboutUs,
+    Service,
+    Footer, 
+    Metrics,
 };
+
