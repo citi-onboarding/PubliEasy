@@ -24,6 +24,18 @@ export const Container = styled.div`
 })
 
 export const StyledForm = styled(Form)`
+
+&::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background-color: ${(props) => props.theme.colors.publieasyBackground};
+    z-index: -10;
+    transform: translate(-20px, 20px);
+}
+
     background-color: ${(props) => props.theme.colors.publieasyPrimary};
     display: flex;
     flex-direction: column;
@@ -36,7 +48,7 @@ export const StyledForm = styled(Form)`
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.05);
-    z-index: 10;
+    position: relative;
 
     .module-wrap {
         margin-top: 10px;

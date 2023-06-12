@@ -1,5 +1,14 @@
 import * as React from "react";
-import { StyledForm, Title, VTextFieldContainer, VTextFieldCustom, Container, TextFieldContainer, InfoParagraph, InfoHighlighted } from "./style";
+import { 
+    StyledForm, 
+    Title, 
+    VTextFieldContainer, 
+    VTextFieldCustom, 
+    Container, 
+    TextFieldContainer, 
+    InfoParagraph, 
+    InfoHighlighted,
+} from "./style";
 import { FormHandles } from "@unform/core";
 import { MenuItem } from "@mui/material";
 
