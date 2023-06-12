@@ -52,6 +52,7 @@ export const Nodemailer: React.FC = () => {
             label="Tipo"
             margin="normal"
             color="secondary"
+            required
             >
                 {typeValues.map((option) => (
                     <MenuItem key={option.value} value={option.value}>
@@ -67,6 +68,7 @@ export const Nodemailer: React.FC = () => {
             variant="outlined"
             margin="normal"
             color="secondary"
+            required
             />
 
             <VTextFieldContainer>
@@ -77,6 +79,7 @@ export const Nodemailer: React.FC = () => {
                 variant="outlined"
                 margin="normal"
                 color="secondary"
+                required
                 />
 
                 <VTextFieldCustom 
@@ -87,6 +90,7 @@ export const Nodemailer: React.FC = () => {
                 variant="outlined"
                 margin="normal"
                 color="secondary"
+                required
                 />
             </VTextFieldContainer>
 
@@ -98,6 +102,7 @@ export const Nodemailer: React.FC = () => {
             rows={4}
             margin="normal"
             color="secondary"
+            required
             />
 
             <div className="module-wrap">
