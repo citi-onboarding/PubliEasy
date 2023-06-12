@@ -1,13 +1,13 @@
 import React from "react";
 import { HomeContainer } from './styles';
-import { LogoCITi } from '../../assets';
+// import { LogoCITi } from '../../assets';
 
 
 export const Home: React.FC = () => {
     return (
         <HomeContainer>
-            <img src={LogoCITi} alt="" />
-            <h1>ReactJS Boilerplate</h1>
+            {/* <img src={LogoCITi} alt="" /> */}
+            <h1>Rafaela e Jamilla</h1>
             <p>
                 Made with
                 {' '}
