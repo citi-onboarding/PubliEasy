@@ -33,7 +33,7 @@ export const Nodemailer: React.FC = () => {
         <StyledForm ref={formRef} onSubmit={handleSubmit}>
 
             <Title>
-                Entre em contato conosco
+                Entre em contato conosco, conheça a PubliEasy!
             </Title>
 
             <VTextFieldCustom

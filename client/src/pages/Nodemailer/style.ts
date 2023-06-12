@@ -14,9 +14,12 @@ export const Container = styled.div`
     export const VTextFieldCustom = styled(VTextField)({
     '& .MuiInputBase-input': {
         backgroundColor: 'white',
+        borderRadius: '5px',
+        fontFamily: 'Raleway', 
       },
       '& .MuiInputBase-root': {
         backgroundColor: 'white',
+        borderRadius: '5px',
       },
 })
 
@@ -29,7 +32,7 @@ export const StyledForm = styled(Form)`
     margin: 0 auto;
     width: 100%;
     max-width: 600px;
-    padding: 1.5rem;
+    padding: 2rem;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.05);
@@ -73,8 +76,9 @@ export const StyledForm = styled(Form)`
 
 export const Title = styled.h1`
 width: 100%;
+padding-right: 20%;
 color: ${(props) => props.theme.colors.background};
-text-align: center;
+text-align: flex-start;
 font-size: 2rem;
 margin-bottom: 2rem;
 
