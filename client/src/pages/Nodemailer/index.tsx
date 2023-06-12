@@ -71,7 +71,7 @@ export const Nodemailer: React.FC = () => {
 
             <VTextFieldCustom
             style={{ width: '100%' }}
-            name="nome" 
+            name="name" 
             label="Nome" 
             variant="outlined"
             margin="normal"
@@ -82,7 +82,7 @@ export const Nodemailer: React.FC = () => {
             <VTextFieldContainer>
                 <VTextFieldCustom
                 style={{ width: '40%' }} 
-                name="phoneNumber" 
+                name="number" 
                 label="Telefone" 
                 variant="outlined"
                 margin="normal"
