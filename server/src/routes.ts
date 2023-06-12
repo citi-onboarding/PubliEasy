@@ -1,4 +1,6 @@
 import express from 'express';
+import { SendMail } from '@controllers/MailController';
+
 import ServicesController from '@controllers/ServicesController';
 import MetricController from '@controllers/MetricController';
 
@@ -7,6 +9,7 @@ const routes = express.Router();
 const servicesController = new ServicesController();
 const metricController = new MetricController();
 
+routes.post('/email', SendMail);
 
 routes.post('/service',servicesController.create);
 routes.get('/service',servicesController.get);
