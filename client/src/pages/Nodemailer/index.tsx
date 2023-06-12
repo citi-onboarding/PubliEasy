@@ -11,6 +11,7 @@ import {
 } from "./style";
 import { FormHandles } from "@unform/core";
 import { MenuItem } from "@mui/material";
+import axios from "axios";
 
 const typeValues = [
     {
@@ -27,8 +28,15 @@ export const Nodemailer: React.FC = () => {
 
     const formRef = React.useRef<FormHandles>(null);
 
-    const handleSubmit = (data: any) => {
+    const handleSubmit = async (data: any) => {
         console.log(data);
+
+        try {
+            const response = await axios.post('http://localhost:3001/email', data);
+            console.log(response);
+        } catch (error) {
+            console.log('error occurred while making post request', error);
+        }
 
         if(formRef.current) {
             formRef.current.reset();
