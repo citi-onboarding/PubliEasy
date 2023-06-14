@@ -1,13 +1,12 @@
 import express from 'express';
-import UserController from '@controllers/UserController'
+import MetricController from '@controllers/MetricController';
 
 const routes = express.Router();
-const userController = new UserController();
+const metricController = new MetricController();
 
-routes.post('/user', userController.create);
-routes.get('/user', userController.get);
-routes.delete('/user/:id', userController.delete);
-routes.put('/user/:id', userController.update);
-
+routes.post('/metric',metricController.create);
+routes.get('/metric',metricController.get);
+routes.delete('/metric/:id',metricController.delete);
+routes.put('/metric/:id',metricController.update);
 
 export default routes;

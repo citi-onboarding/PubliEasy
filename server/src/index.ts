@@ -1,5 +1,5 @@
 import { connection } from './database/connection';
-import routes from './routesMetric'
+import routes from './routes'
 import dotenv from 'dotenv';
 import express from 'express';
 import cors from 'cors';
