@@ -4,7 +4,7 @@ import { Image1, Image2 } from '../../assets';
 
 export const Metrics: React.FC = () => {
     return (
-        <MainContainer> 
+        <MainContainer id="Metrics"> 
             <UpContainer>
                 <Image src={Image1} alt=""/>
                 <Description>

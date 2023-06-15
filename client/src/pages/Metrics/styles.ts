@@ -50,9 +50,9 @@ export const Circle = styled.div`
   justify-content: center;
   align-items: center;
   p {
-    padding-left: 70%;
+    // padding-left: 70%;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 50px;
   }
 `;
 

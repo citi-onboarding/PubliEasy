@@ -8,17 +8,17 @@ export const Navbar: React.FC = () => {
                 <Logo src={LogoPubliEasy} />
                 <List>
                     <li> 
-                        <a href="">Home</a> 
+                        <a href="/#AboutUs">Home</a> 
                     </li>
                     <li>
-                         <a href="">Nosso Produto</a>
+                         <a href="/#Services">Nosso Serviço</a>
                     </li>
                     <li>
-                        <a href="">Estatística</a>
+                        <a href="/#Metrics">Estatística</a>
                     </li>
                     <div className="module-wrap"><div className="module">
                         <li>
-                            <a href="">Contato</a>
+                            <a href="/#NodeMailer">Contato</a>
                         </li>
                     </div></div>
                 </List>

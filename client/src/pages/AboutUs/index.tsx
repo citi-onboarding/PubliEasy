@@ -4,7 +4,7 @@ import { back, botaobranco } from "../../assets";
 
 export const AboutUs: React.FC = () => {
     return (
-        <Sobrenos>
+        <Sobrenos id="AboutUs">
             <Background style={{ backgroundImage: `url(${back})` }}>
                     <TextBackground>
                         <TextUp>Headline Headline</TextUp>
