@@ -47,7 +47,7 @@ export const Nodemailer: React.FC = () => {
 
     <Container>
 
-        <StyledForm ref={formRef} onSubmit={handleSubmit}>
+        <StyledForm ref={formRef} onSubmit={handleSubmit} initialData={{ type: "" }} >
 
             <Title>
                 Entre em contato conosco, conheça a PubliEasy!
@@ -57,10 +57,11 @@ export const Nodemailer: React.FC = () => {
             style={{ width: '100%' }} 
             select
             name="type"
-            label="Tipo"
+            placeholder="Tipo"
             margin="normal"
             color="secondary"
             required
+            defaultValue="client"
             >
                 {typeValues.map((option) => (
                     <MenuItem key={option.value} value={option.value}>
@@ -72,10 +73,10 @@ export const Nodemailer: React.FC = () => {
             <VTextFieldCustom
             style={{ width: '100%' }}
             name="name" 
-            label="Nome" 
             variant="outlined"
             margin="normal"
             color="secondary"
+            placeholder="Nome"
             required
             />
 
@@ -83,7 +84,7 @@ export const Nodemailer: React.FC = () => {
                 <VTextFieldCustom
                 style={{ width: '40%' }} 
                 name="number" 
-                label="Telefone" 
+                placeholder="Telefone" 
                 variant="outlined"
                 margin="normal"
                 color="secondary"
@@ -94,7 +95,7 @@ export const Nodemailer: React.FC = () => {
                 style={{ width: '55%' }}
                 name="email"
                 type="email" 
-                label="E-mail" 
+                placeholder="E-mail" 
                 variant="outlined"
                 margin="normal"
                 color="secondary"
@@ -105,7 +106,7 @@ export const Nodemailer: React.FC = () => {
             <VTextFieldCustom
             style={{ width: '100%' }}
             name="message"
-            label="Mensagem"
+            placeholder="Mensagem"
             multiline
             rows={4}
             margin="normal"
