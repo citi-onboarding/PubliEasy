@@ -58,6 +58,7 @@ export const Circle = styled.div`
 
 export const Paragraph = styled.p`
   margin-left: 24px;
+  max-height: 100px;
   line-height: 32px;
   text-align: center;
   font-color: black;

@@ -16,7 +16,7 @@ import axios from "axios";
 const typeValues = [
     {
         value: 'client',
-        label: 'Cliente',
+        label: 'Empresa',
     },
     {
         value: 'driver',
@@ -128,10 +128,14 @@ export const Nodemailer: React.FC = () => {
 
         <TextFieldContainer>
             <InfoParagraph>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Contato Empresa: Entre em contato conosco hoje
+            mesmo e descubra como podemos ajudar sua empresa
+            a alcançar visibilidade e sucesso através dos nossos
+            outdoors móveis.
             </InfoParagraph>
             <InfoHighlighted>
-            Sed pulvinar metus non porta eleifend.
+            Contato Motorista: Faça a solicitação e se torne um
+            motorista parceiro.
             </InfoHighlighted>
         </TextFieldContainer>
     </Container>

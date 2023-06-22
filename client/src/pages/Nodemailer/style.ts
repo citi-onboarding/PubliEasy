@@ -107,13 +107,14 @@ display: flex;
 flex-direction: column;
 width: 40%;
 justify-content: space-around;
-
 `;
 
 export const InfoParagraph = styled.p`
-font: 400 45px 'Raleway', sans-serif;
+font: 400 32px 'Raleway', sans-serif;
+padding-right: 4%;
 `;
 
 export const InfoHighlighted = styled.p`
-font: 600 64px 'Raleway', sans-serif;
+font: 600 48px 'Raleway', sans-serif;
+padding-right: 4%;
 `;
