@@ -21,24 +21,28 @@ export const Background = styled.div`
 `;
 
 export const TextUp = styled.h1`
-    padding-right: 5%;
+    width: 60%;
+    margin-left: auto;
+    padding-right: 2%;
     text-align: right;
     font-style: normal;
-    font-size: 64px;
+    font-size: 56px;
     font-weight: 700;
     line-height: 100%;
-    padding-top: 350px;
+    padding-top: 220px;
     color: white;
 `;
 
 export const TextBottom = styled.h1`
-    padding-right: 5%;
+    width: 60%;
+    margin-left: auto;
+    padding-right: 2%;
     text-align: right;
     font-style: normal;
-    font-size: 64px;
+    font-size: 56px;
     font-weight: 700;
     line-height: 100%;
-    padding-top: 10px;
+    padding-top: 5px;
     color: white;
  `;
 

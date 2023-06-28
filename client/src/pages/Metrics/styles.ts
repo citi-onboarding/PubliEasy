@@ -50,14 +50,15 @@ export const Circle = styled.div`
   justify-content: center;
   align-items: center;
   p {
-    padding-left: 70%;
+    // padding-left: 70%;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 50px;
   }
 `;
 
 export const Paragraph = styled.p`
   margin-left: 24px;
+  max-height: 100px;
   line-height: 32px;
   text-align: center;
   font-color: black;

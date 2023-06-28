@@ -56,11 +56,13 @@ export const ServicesImg = styled.div`
 `;
 
 export const ItemImg = styled.img`
-    width: ;px
-    height: 150px;
-    object-fit: cover;
-    object-position: 50% 50%;
-    border-radius:8%;
+  min-width: 190px;
+  min-height: 130px;
+  max-width: 190px;
+  max-height: 130px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 8%;
 `;
 
 export const ServicesP = styled.p`
