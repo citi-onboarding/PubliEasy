@@ -14,7 +14,7 @@ export const AboutUs: React.FC = () => {
             </Background>
             <TextAboutUs>Somos uma startup com uma visão inovadora da publicidade. Nascemos da necessidade de unir o físico ao digital de maneira assertiva e levar as empresas até seus clientes,
                  gerando
-            <DifferentColor>impactos sociais para nossos parceiros.</DifferentColor></TextAboutUs>
+            <DifferentColor> impactos sociais para nossos parceiros.</DifferentColor></TextAboutUs>
         </Sobrenos>
     );
 }

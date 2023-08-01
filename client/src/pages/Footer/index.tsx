@@ -9,15 +9,15 @@ export const Footer: React.FC = () => {
               <Footerdiv>
                     <Logo src={LogoPubliEasy}/>
                     <Paragrafo>Copyright 2023 | Todos os direitos reservados</Paragrafo>
-                    <Text>
+                    {/* <Text>
                         <Paragrafo2>Lorem ipsum</Paragrafo2>
                         <Paragrafo2>Lorem ipsum</Paragrafo2>
                         <Paragrafo2>Lorem ipsum</Paragrafo2>
                         <Paragrafo2>Lorem ipsum</Paragrafo2>
-                    </Text>
+                    </Text> */}
                     <Imagens>
-                        <ImageLink style={{ backgroundImage: `url(${linkedin})` }} href="" />
-                        <ImageLink style={{ backgroundImage: `url(${instagram})` }} href="" />
+                        <ImageLink style={{ backgroundImage: `url(${linkedin})` }} href="https://www.linkedin.com/company/publieasybr/" target="_blank" />
+                        <ImageLink style={{ backgroundImage: `url(${instagram})` }} href="https://instagram.com/publieasybr?igshid=Y2IzZGU1MTFhOQ==" target="_blank"/>
                         <ImageLink style={{ backgroundImage: `url(${facebook})` }} href="" />
                     </Imagens>
                     <Creditos src={creditos}/>
