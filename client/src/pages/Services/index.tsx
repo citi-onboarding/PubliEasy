@@ -16,7 +16,7 @@ export const Service: React.FC = () => {
   useEffect(() => {
     const fetchServices = async () => {
       try {
-        const response = await axios.get("http://localhost:3001/service"); // Replace "/api/services" with your actual API endpoint to fetch services
+        const response = await axios.get("https://api-publieasy.onrender.com/service"); // Replace "/api/services" with your actual API endpoint to fetch services
         setServices(response.data);
       } catch (error) {
         console.error(error);

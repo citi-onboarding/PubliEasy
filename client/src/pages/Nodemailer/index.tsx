@@ -32,7 +32,7 @@ export const Nodemailer: React.FC = () => {
         console.log(data);
 
         try {
-            const response = await axios.post('http://localhost:3001/email', data);
+            const response = await axios.post('https://api-publieasy.onrender.com/email', data);
             console.log(response);
         } catch (error) {
             console.log('error occurred while making post request', error);

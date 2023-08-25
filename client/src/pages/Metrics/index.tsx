@@ -19,7 +19,7 @@ export const Metrics: React.FC = () => {
     useEffect(() => {
         const fetchMetrics = async () => {
             try {
-                const response = await axios.get("http://localhost:3001/metric");
+                const response = await axios.get("https://api-publieasy.onrender.com/metric");
                 setMetrics(response.data);
             } catch (error) {
                 console.error(error);
