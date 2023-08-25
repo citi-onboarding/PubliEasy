@@ -1,4 +1,4 @@
-import { MailServer } from "src/services/MailServer";
+import { MailServer } from "../services/MailServer"
 import dotenv from 'dotenv';
 import {Request, Response} from 'express';
 
